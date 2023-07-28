@@ -31,7 +31,7 @@ jobs:
         with:
           title: Latest Release
           automatic_release_tag: latest
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          repo_token: "${{ secrets.GH_TOKEN }}"
           files: |
             build/*.js
             build/*.js.map
